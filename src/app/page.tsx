@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Next.js',
+};
 
 export default function Home() {
-  return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <Button>Click me</Button>
-    </main>
-  );
+  return <h1>Hello! Home Page</h1>;
 }
